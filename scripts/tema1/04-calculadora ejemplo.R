@@ -40,3 +40,35 @@ doble(miVariable)
 
 cuadrado = function(x){x^2}
 cuadrado(miVariable)
+
+# Funcion f(x) = x^3 - (3^x)*sen(x)
+f = function(x){
+  x^3 - (3^x)*sin(x)
+  }
+f(4) # 4^3 - 3^4*sin(4)
+
+product <- function(x,y){
+  x*y
+}
+
+product(3,4)
+
+g<- function(x,y,z){
+  exp(x^2+y^2)*sin(z)
+}
+g(1,2,3)
+
+suma1 = function(x){x+1}
+
+suma5 <- function(x){
+  x=suma1(x);
+  x=suma1(x);
+  x=suma1(x);
+  x=suma1(x);
+  suma1(x)
+}
+
+suma5(3)
+
+
+
